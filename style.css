@@ -154,3 +154,34 @@ body {
    color: var(--cor-de-fundo);
    font-weight: bold;
 }
+
+@media screen and (max-width:700px){
+   .principal {
+      background-image: none;
+   }
+
+   .container {
+      height: 90vh;
+   }
+
+   .container, .dispositivos__lista, .rodape__lista {
+      display: flex;
+      justify-content: center;
+      flex-flow: column;
+      width: 100%;
+      margin: auto;
+   }
+
+   .dispositivos__titulos {
+      font-size: 36px;
+      margin-bottom: 1em;
+   }
+
+   .rodape {
+      margin-top: 5em;
+   }
+
+   .rodape__logo, .lista__link {
+      padding: 2em;
+   }
+}
